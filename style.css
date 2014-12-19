@@ -1,3 +1,6 @@
+body {
+  margin-bottom: 50px; }
+
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -17,22 +20,22 @@
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px; } }
-.page-header {
-  height: 220px;
-  margin-bottom: 15px; }
-  .page-header h1 {
-    color: green;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 50px;
-    position: relative;
-    left: 150px;
-    bottom: 80px;
-    padding-left: 25px; }
-  .page-header h1 small {
-    color: green;
-    font-family: Helvetica, Arial, sans-serif; }
-
-.navbar-brand {
-  height: 170px; }
+.header .container > * {
+  display: inline; }
+.header .container {
+  margin-bottom: 25px;
+  margin-left: 300px; }
+.header i {
+  margin-top: 50px;
+  font-size: 50px;
+  float: right; }
+.header .fa-facebook {
+  color: #3b5998;
+  margin-right: 50px; }
+.header .fa-twitter {
+  color: #326ada;
+  margin-right: 80px; }
+.header h1 {
+  color: #28af01; }
 
 /*# sourceMappingURL=style.css.map */
