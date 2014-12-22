@@ -1,3 +1,10 @@
 $(document).ready(function(){
-	$('#dato').val( moment().format('MMM D, YYYY'));
+	setDate();
+	setInterval(function(){setDate()}, 1000);
+
 });
+
+function setDate(){
+	var date = moment().locale('nb').format('LLLL');
+	$('#dato').html(date);
+};
